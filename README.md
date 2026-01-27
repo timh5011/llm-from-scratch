@@ -2,4 +2,4 @@
 
 Following [along](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) to build neural networks from scratch.
 
-At video 1 19.02
+At video 1 30.47
