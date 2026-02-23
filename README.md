@@ -14,7 +14,7 @@ micrograd is a simple autograd engine that enables the user to perform backpropo
 
 makemore is an autoregressive character level language model. It generates fake words that are structurally similar to the words it was trained on. makemore includes various different models, including:
 
- * bigram language model
+ * Bigram Language Model
     * trained through counting character pairs (bigrams) to form a character correlation matrix
     * simple neural network (linear layer + softmax layer) trained on bigrams
  * Multi-Layer Perceptron (MLP)
