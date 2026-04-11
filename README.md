@@ -12,7 +12,7 @@ micrograd is a simple autograd engine that aligns with the PyTorch API. It inclu
 
 ## makemore
 
-makemore is an autoregressive character level language model. It generates fake words that are structurally similar to the words it was trained on. makemore includes various different models, including:
+makemore is an autoregressive character level language model. It generates fake words that are structurally similar to the words it was trained on. Our implementation implements key parts of torch.nn using torch.tensor. makemore includes various different models, including:
 
  * Bigram Language Model
     * trained through counting character pairs (bigrams) to form a character correlation matrix
