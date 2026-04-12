@@ -22,4 +22,4 @@ makemore is an autoregressive character level language model. It generates fake 
  * Convolutional Neural Network
    * CNN implementation modeled off [Google DeepMind's WaveNet, 2016](https://arxiv.org/abs/1609.03499) 
  * Transformer
-  * Mini GPT-2 implementation following [Vaswani et al., 2017](https://arxiv.org/abs/1706.03762)
+   * Mini GPT-2 implementation following [Vaswani et al., 2017](https://arxiv.org/abs/1706.03762)
