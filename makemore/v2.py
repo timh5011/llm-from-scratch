@@ -10,7 +10,8 @@ eval_interval = 500
 learning_rate = 1e-2
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 eval_iters = 200
-# ===============
+n_embd = 32
+# ==================================================
 
 torch.manual_seed
 
@@ -25,7 +26,7 @@ itos = { i:ch for i,ch in enumerate(chars) }
 encode = lambda s: [stoi[c] for c in s]
 decode = lambda l: ''.join([itos[i] for i in l])
 
-# train and test splits
+# train and test splits 
 data = torch.tensor(encode(text), dtype=torch.long)
 n = int(0.9 * len(data))
 train_data = data[:n]
@@ -39,7 +40,7 @@ def get_batch(split):
     y = torch.stack([data[i+1:i+block_size+1] for i in ix])
     return x, y
 
-@torch.no_grad
+@torch.no_grad # ===================================
 def estimate_loss():
     out = {}
     model.eval()
@@ -53,15 +54,24 @@ def estimate_loss():
     model.train()
     return out
 
-# simple bigram model
+
+
+# simple bigram model ===================================
 class BigramLanguageModel(nn.Module):
     
-    def __init__(self, vocab_size):
+    def __init__(self):
         super().__init__()
-        self.token_embedding_table = nn.Embedding(vocab_size, vocab_size)
+        self.token_embedding_table = nn.Embedding(vocab_size, n_embd)
+        self.position_embedding_table = nn.Embedding(block_size, n_embd)
+        self.lm_head = nn.Linear(n_embd, vocab_size)
     
     def forward(self, idx, targets=None):
-        logits = self.token_embedding_table(idx)
+        B, T = idx.shape
+        
+        tok_emb = self.token_embedding_table(idx) # (B,T,C=n_embd)
+        pos_emb = self.position_embedding_table(torch.arange(T, device=device)) # (T, C)
+        x = tok_emb + pos_emb # (B,T,C)
+        logits = self.lm_head(x) # (B,T,vocab_size)
         
         if targets is None:
             loss = None
@@ -81,8 +91,9 @@ class BigramLanguageModel(nn.Module):
             idx_next = torch.multinomial(probs, num_samples=1)
             idx = torch.cat((idx, idx_next), dim=1)
         return idx
+# ======================================================================
 
-model = BigramLanguageModel(vocab_size)
+model = BigramLanguageModel()
 m = model.to(device)
 
 
