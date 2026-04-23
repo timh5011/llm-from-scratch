@@ -26,4 +26,5 @@ makemore is an autoregressive character level language model. It generates fake 
    * Mini GPT-2 implementation following [Vaswani et al., 2017](https://arxiv.org/abs/1706.03762)
    * with the following for optimizing deep networks: 
       * Residual Connections from [He et al., 2015](https://arxiv.org/abs/1512.03385)
-      * Layer Normalization fromm [Ba, Kiros, and Hinton, 2016](https://arxiv.org/abs/1607.06450)
+      * Layer Normalization from [Ba, Kiros, and Hinton, 2016](https://arxiv.org/abs/1607.06450)
+      * Dropout (to prevent overfitting) from [Srivastava, 2014](https://www.jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf?utm_content=buffer79b4)
