@@ -3,17 +3,17 @@ import torch.nn as nn
 from torch.nn import functional as F
 
 # hyperparamters
-batch_size = 32
-block_size = 96
-max_iters = 5000
-eval_interval = 500
+batch_size = 48
+block_size = 224
+max_iters = 6000
+eval_interval = 1000
 learning_rate = 3e-4
 device = 'mps' if torch.backends.mps.is_available() else 'cpu'
 eval_iters = 200
-n_embd = 128
-n_head = 4
-n_layer = 4
-dropout = 0.2
+n_embd = 192
+n_head = 6
+n_layer = 6
+dropout = 0.3
 # ==================================================
 
 torch.manual_seed
@@ -199,4 +199,4 @@ for iter in range(max_iters):
     
 # generate from the model
 context = torch.zeros((1,1), dtype=torch.long, device=device)
-print(decode(m.generate(context, max_new_tokens=500)[0].tolist()))
+print(decode(m.generate(context, max_new_tokens=1000)[0].tolist()))

@@ -1,4 +1,178 @@
 # hyperparamters
+batch_size = 48
+block_size = 224
+max_iters = 6000
+eval_interval = 1000
+learning_rate = 3e-4
+device = 'mps' if torch.backends.mps.is_available() else 'cpu'
+eval_iters = 200
+n_embd = 192
+n_head = 6
+n_layer = 6
+dropout = 0.3
+
+step 0: train loss 4.5125, val loss 4.5210
+step 1000: train loss 2.0629, val loss 2.1232
+step 2000: train loss 1.7377, val loss 1.8755
+step 3000: train loss 1.5802, val loss 1.7563
+step 4000: train loss 1.4933, val loss 1.6828
+step 5000: train loss 1.4256, val loss 1.6316
+
+DUKE VINCENTIO:
+Fair say, see, I mean I have will be that the farewer
+Haplace Herse my live, I am it this love:
+How came you, for I will out not mottenta'ed,
+Then so very cannot it the way
+The best my justder duke, ad eldenine
+Yet hath no send mere so He secur
+Oband with the deater!
+Toingst time boy the good of my comes; abribeing
+That Aufidius in than bettiness.
+
+DUKE EDWARD:
+No, did I faint dids.
+Like me! I secance: my heaven, mark.
+
+CAPULET:
+Sespiace wick, Norfold, main, onces, year keep it:
+May ench the feel at as did.
+Nay, say?
+What mastert any shalle would namister heath my graced,
+And cangemer
+To succuse gape.
+
+ELBOW:
+I will, remembern like my lime rige his land,
+Tellibour by high prood, prept my bace:
+Compallife, pray too all upassul.
+
+ROMEO:
+As it live teme are mead: thou bestanue, for me faight,
+I say. This new, lets you chasent; first me thee,
+and men a mised, to wose yet in aming made
+Mine Many moing freedio; tine his had
+That I grach old near no make it.
+Ares, her you shal
+
+--------------------------------------------
+
+# hyperparamters
+batch_size = 32
+block_size = 192
+max_iters = 6000
+eval_interval = 500
+learning_rate = 3e-4
+device = 'mps' if torch.backends.mps.is_available() else 'cpu'
+eval_iters = 200
+n_embd = 192
+n_head = 6
+n_layer = 6
+dropout = 0.2
+
+step 0: train loss 4.4429, val loss 4.4493
+step 500: train loss 2.3714, val loss 2.3995
+step 1000: train loss 2.0571, val loss 2.1190
+step 1500: train loss 1.8591, val loss 1.9729
+step 2000: train loss 1.7343, val loss 1.8805
+step 2500: train loss 1.6438, val loss 1.8116
+step 3000: train loss 1.5771, val loss 1.7584
+step 3500: train loss 1.5252, val loss 1.7022
+step 4000: train loss 1.4862, val loss 1.6812
+step 4500: train loss 1.4528, val loss 1.6554
+step 5000: train loss 1.4337, val loss 1.6333
+step 5500: train loss 1.4080, val loss 1.6096
+
+Furtizese thief Camis tremit stow crossems a
+dinglance so such, causing Rome wind: Itchang prosend mastard
+in trunstry'd, what I have spentagent.
+
+First Gentleman:
+Eepen, he man too-night know's pever;
+Gold, I go Iransably: the ask me all.
+
+CAMILLO:
+Bet, my desmove What's sisters well be souls be.
+You love done of twell-verly to suppeal;
+And that peaces crows deat iedout be some whole.
+My have more one that, the with maid!
+
+DUCHESS OF YORK:
+Eur causin! what commine I thou have you sin?
+
+QUEEN EEL:
+Then man, brother but they delike own.
+
+HASTINGS:
+Ay, , letieuty
+Now:
+Letter, my lords,
+Your goodly?
+
+AMENELIA:
+A had struch to me: I know inless: I hone lords;
+For this wonts thirms ours; 'those brity
+The dukes have and city have olimand thou look
+A mocks perform spron'd with my volury?
+
+ANBUCKINGHAGA:
+'Tis neven my sworth hath behold her at smouls.
+
+MARCAMILLANUS:
+Why, father, anour smal, and be negled help than at king?
+
+ROMEO:
+Capili your coury, in
+Provoged her can degries spent and pener
+
+--------------------------------------------
+
+# hyperparamters
+batch_size = 32
+block_size = 160
+max_iters = 6000
+eval_interval = 500
+learning_rate = 3e-4
+device = 'mps' if torch.backends.mps.is_available() else 'cpu'
+eval_iters = 200
+n_embd = 192
+n_head = 6
+n_layer = 6
+dropout = 0.2
+
+step 0: train loss 4.4618, val loss 4.4551
+step 500: train loss 2.3570, val loss 2.3822
+step 1000: train loss 2.0227, val loss 2.0888
+step 1500: train loss 1.8413, val loss 1.9640
+step 2000: train loss 1.7225, val loss 1.8688
+step 2500: train loss 1.6366, val loss 1.8060
+step 3000: train loss 1.5737, val loss 1.7538
+step 3500: train loss 1.5279, val loss 1.7088
+step 4000: train loss 1.4983, val loss 1.6811
+step 4500: train loss 1.4582, val loss 1.6530
+step 5000: train loss 1.4328, val loss 1.6261
+step 5500: train loss 1.4095, val loss 1.6125
+
+More bear ollow'd too the put thumbls.
+
+SICINIUS:
+What's lamen a gentleman?
+
+VOLUMNIA:
+Those fellove all his night; ado
+ours cannock for an transope and Sometuon; and these
+so hasold comfoots and fell their his may drude breen
+Are eform not whom I intake, is My protuch fill:
+His would in earls chanter.
+Whill not.
+
+Eveneral neight, morehaven'd sidure hers reliere
+That go thus win forth- up it; sirit have
+One move soul---beneite you trail jestice this blody
+It sit briedgers his oven before; my wou
+
+--------------------------------------------
+
+# hyperparamters
 batch_size = 32
 block_size = 96
 max_iters = 5000
@@ -10,9 +184,6 @@ n_embd = 128
 n_head = 4
 n_layer = 4
 dropout = 0.2
-
-## Out
-~10 min
 
 step 0: train loss 4.5721, val loss 4.5588
 step 500: train loss 2.4063, val loss 2.4295
@@ -43,3 +214,52 @@ DUKE VINCENCENTIO:
 I that not your you's Let will. AUDINE:
 Nay, my tract to of sir, thould wheref beif him your sencion,
 Upomet 
+
+--------------------------------------------
+
+# hyperparamters
+batch_size = 32
+block_size = 128
+max_iters = 6000
+eval_interval = 500
+learning_rate = 3e-4
+device = 'mps' if torch.backends.mps.is_available() else 'cpu'
+eval_iters = 200
+n_embd = 128
+n_head = 4
+n_layer = 4
+dropout = 0.2
+
+step 0: train loss 4.6204, val loss 4.6202
+step 500: train loss 2.4200, val loss 2.4445
+step 1000: train loss 2.2028, val loss 2.2320
+step 1500: train loss 2.0429, val loss 2.0895
+step 2000: train loss 1.9275, val loss 2.0047
+step 2500: train loss 1.8420, val loss 1.9454
+step 3000: train loss 1.7752, val loss 1.8989
+step 3500: train loss 1.7246, val loss 1.8630
+step 4000: train loss 1.6818, val loss 1.8366
+step 4500: train loss 1.6510, val loss 1.8115
+step 5000: train loss 1.6156, val loss 1.7939
+step 5500: train loss 1.5901, val loss 1.7741
+
+Shen
+The grind of Carians!
+Of Gentleria e your greatery:
+This it homan. God
+It knownements grane Ezanxted.
+
+WARWICK:
+Mars; this now thy not pleasenatifes tour to a
+his vince: his, and agoind done, no as it fest me,
+To can contorr'spent worldrumings the poppe,
+York conviontle him doth nive; bather it faulond.
+
+KING EDWARD IVI:
+Abatisonatus Yourn death coudil: an who.
+
+TRANE:
+I' falius in he marrbut
+that well ar fesighands that I lark, seece mothes
+Of thus be the ben gell-shows
+Yre passed; me defa
