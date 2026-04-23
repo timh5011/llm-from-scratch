@@ -1,4 +1,63 @@
 # hyperparamters
+batch_size = 64
+block_size = 256
+max_iters = 6000
+eval_interval = 1000
+learning_rate = 3e-4
+device = 'mps' if torch.backends.mps.is_available() else 'cpu'
+eval_iters = 200
+n_embd = 192
+n_head = 6
+n_layer = 6
+dropout = 0.3
+
+step 0: train loss 4.6463, val loss 4.6438
+step 1000: train loss 2.0596, val loss 2.1177
+step 2000: train loss 1.7068, val loss 1.8607
+step 3000: train loss 1.5502, val loss 1.7254
+step 4000: train loss 1.4574, val loss 1.6440
+step 5000: train loss 1.3959, val loss 1.6013
+
+To owhich he is old any a carelence
+Will to garnice, liken entage.
+But the shear, like up that thou are of worst me
+did, what youngs upon, lyse? A life:
+think thus not toitness my man:
+Thus what earth it some-days in preyest daredamps,
+My horsely being the pebune while; the wn,
+Detleed fiends do will they must the crease.
+
+MONTAGUE:
+Hear didsmade more?
+
+KING RICHARD CINII:
+Grome here whum graves danger me war you shoon.
+Amen came of lof of my runs, what I have,
+Faxts lettern-fright hower the land spiric for hath!
+Say eed'd thou must conceit a battred him!
+As that I doep it, I will resdone.
+
+BRUTUS:
+Then need;'t's it deter
+But speech to all stritch yours death;
+An one, gas wruman is where he country
+I would have yeard furst the woeeds up wreth:
+I shoped, my teeler, for not not
+To the deving: one nowel, but, may wife.
+
+WARWICK:
+Retch I refrom me might our for hand.
+
+QUEEN MARGAR:
+Have is my madam.
+
+LADY ANNE:
+And all I is heart tend; to go his field,
+no gandemnt therefore, istructs Disho
+
+--------------------------------------------
+
+# hyperparamters
 batch_size = 48
 block_size = 224
 max_iters = 6000
