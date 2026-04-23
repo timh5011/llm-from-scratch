@@ -18,8 +18,12 @@ makemore is an autoregressive character level language model. It generates fake 
     * trained through counting character pairs (bigrams) to form a character correlation matrix
     * simple neural network (linear layer + softmax layer) trained on bigrams
  * Multi-Layer Perceptron
-    * MLP implementation following [Bengio et al., 2003](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf) with batch normalization following [Ioffe et al., 2015](https://arxiv.org/pdf/1502.03167)
+    * MLP implementation following [Bengio et al., 2003](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf) 
+    * with Batch Normalization following [Ioffe et al., 2015](https://arxiv.org/pdf/1502.03167)
  * Convolutional Neural Network
    * CNN implementation modeled off [Google DeepMind's WaveNet, 2016](https://arxiv.org/abs/1609.03499) 
  * Transformer
    * Mini GPT-2 implementation following [Vaswani et al., 2017](https://arxiv.org/abs/1706.03762)
+   * with the following for optimizing deep networks: 
+      * Residual Connections from [He et al., 2015](https://arxiv.org/abs/1512.03385)
+      * Layer Normalization fromm [Ba, Kiros, and Hinton, 2016](https://arxiv.org/abs/1607.06450)
