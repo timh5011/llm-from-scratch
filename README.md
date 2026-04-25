@@ -9,7 +9,7 @@ Implementing LLMs from scratch, focused on encoder-decoder transformers.
 
 ## Neural Networks: Hero to Zero
 
-Implementing neural networks from scratch based on [Andrej Karpathy's lecture series](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) to implement neural networks from scratch.
+Implementing neural networks from scratch based on [Andrej Karpathy's lecture series](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ).
 
 ### micrograd
 
