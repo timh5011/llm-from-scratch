@@ -3,14 +3,17 @@
 Following [along](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) to build neural networks from scratch.
 
 ## Contents
- * [micrograd](#micrograd)
- * [makemore](#makemore)
+ * [neural-networks-hero-to-zero](#neural-networks-hero-to-zero)
+      * [micrograd](#micrograd)
+      * [makemore](#makemore) 
 
-## micrograd
+## neural-networks-hero-to-zero
+
+### micrograd
 
 micrograd is a simple autograd engine that aligns with the PyTorch API. It includes an implementation of backpropogation on scalar-valued neural networks. The class Value is defined such that basic algebraic operations can be carried out to form new Values while tracking the operations and Values that went into the creation of new Values, forming an expression graph for the purpose of backpropogration. This allows gradients to be computed more efficiently and accurately than through the use of numerical approximation. 
 
-## makemore
+### makemore
 
 makemore is an autoregressive character level language model. It generates fake words that are structurally similar to the words it was trained on. Our implementation implements key parts of torch.nn using torch.tensor. makemore includes various different models, including:
 
