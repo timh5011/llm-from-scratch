@@ -1,5 +1,7 @@
 # LLMs from scratch
 
+Implementing LLMs from scratch, focused on encoder-decoder transformers.
+
 ## Contents
  * [Neural Networks: Hero to Zero](#neural-networks-hero-to-zero)
       * [micrograd](#micrograd)
