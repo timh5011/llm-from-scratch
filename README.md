@@ -1,13 +1,13 @@
 # LLMs from scratch
 
 ## Contents
- * [neural-networks-hero-to-zero](#neural-networks-hero-to-zero)
+ * [Neural Networks: Hero to Zero](#neural-networks-hero-to-zero)
       * [micrograd](#micrograd)
       * [makemore](#makemore) 
 
-## neural-networks-hero-to-zero
+## Neural Networks: Hero to Zero
 
-Following [along](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) to implement neural networks from scratch.
+Implementing neural networks from scratch based on [Andrej Karpathy's lecture series](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) to implement neural networks from scratch.
 
 ### micrograd
 
