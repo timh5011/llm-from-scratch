@@ -5,7 +5,8 @@ Implementing LLMs from scratch, focused on encoder-decoder transformers.
 ## Contents
  * [Neural Networks: Hero to Zero](#neural-networks-hero-to-zero)
       * [micrograd](#micrograd)
-      * [makemore](#makemore) 
+      * [makemore](#makemore)
+* [Representation Learning](#representation-learning)
 
 ## Neural Networks: Hero to Zero
 
@@ -33,3 +34,24 @@ makemore is an autoregressive character level language model. It generates fake 
       * Residual Connections from [He et al., 2015](https://arxiv.org/abs/1512.03385)
       * Layer Normalization from [Ba, Kiros, and Hinton, 2016](https://arxiv.org/abs/1607.06450)
       * Dropout (to prevent overfitting) from [Srivastava, 2014](https://www.jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf?utm_content=buffer79b4)
+
+## Representation Learning
+
+ * BERT
+      * https://arxiv.org/abs/1810.04805
+ * Autoencoders and VAEs:
+      * https://arxiv.org/abs/1312.6114
+ * Representation Learning as Manifold Learning
+      * https://arxiv.org/abs/1206.5538
+ * Information Bottleneck Theory
+      * General Rate-Distortion Theory
+      * https://arxiv.org/abs/physics/0004057
+      * https://arxiv.org/abs/1703.00810
+ * Platonic Representation Hypothesis
+      * https://arxiv.org/abs/2405.07987
+      * Linear Representation Hypoethsesis: https://arxiv.org/html/2311.03658v2
+      * https://arxiv.org/abs/2103.00020
+ * Algebraic Study of Latent Space:
+      * https://arxiv.org/abs/1003.4394
+
+Also note: word2vec, RNNs, LSTMS, CNNs
