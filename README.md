@@ -54,4 +54,9 @@ makemore is an autoregressive character level language model. It generates fake 
  * Algebraic Study of Latent Space:
       * https://arxiv.org/abs/1003.4394
 
-Also note: word2vec, RNNs, LSTMS, CNNs
+Also note: word2vec
+
+## Mics. 
+
+ * Adam, AdamW Optimizers
+ * RNNs, LSTMs, CNNs
