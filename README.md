@@ -60,3 +60,5 @@ makemore is an autoregressive character level language model. It generates fake 
  * Adam, AdamW Optimizers
  * RNNs, LSTMs, CNNs
  * [An Introduction to Statistical Learning](https://www.statlearning.com/)
+ * Statistical Inference (Casella, Berger)
+ * Elements of Information Theory, 2nd Edition (Cover, Thomas)
