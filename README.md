@@ -51,6 +51,10 @@ makemore is an autoregressive character level language model. It generates fake 
       * https://arxiv.org/abs/2405.07987
       * Linear Representation Hypoethsesis: https://arxiv.org/html/2311.03658v2
       * https://arxiv.org/abs/2103.00020
+ * Language Models are Compressors
+     * https://arxiv.org/abs/2309.10668
+     * a language model with cross-entropy loss L can be converted into an arithmetic code achieving L bits per token
+     * Shannon-Fano-Elias Coding
  * Algebraic Study of Latent Space:
       * https://arxiv.org/abs/1003.4394
  * word2vec
