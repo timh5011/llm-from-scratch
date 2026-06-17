@@ -47,6 +47,7 @@ makemore is an autoregressive character level language model. It generates fake 
       * General Rate-Distortion Theory
       * https://arxiv.org/abs/physics/0004057
       * https://arxiv.org/abs/1703.00810
+      * https://www.cise.ufl.edu/~anand/sp06/ib.pdf
  * Platonic Representation Hypothesis
       * https://arxiv.org/abs/2405.07987
       * Linear Representation Hypoethsesis: https://arxiv.org/html/2311.03658v2
